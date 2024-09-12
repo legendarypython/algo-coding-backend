@@ -23,7 +23,6 @@ function updateProblem(req, res) {
     // Implementation for updating a problem
 }
 
-// Export the controller functions
 module.exports = {
     addProblem,
     getProblem,

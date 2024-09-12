@@ -1,6 +1,5 @@
-const ProblemController = require('./problem.controller');
+const problemController = require('./problem.controller');
 
-// Export ProblemController
 module.exports = {
-    ProblemController
+    problemController
 };
