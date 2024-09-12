@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true})); 
 app.use(express.text()); 
 
-app.get('/health', (req, res) => {
+app.get('/ping', (req, res) => {
     return res.json({message: "Problem service is working fine"}); 
 })
 
