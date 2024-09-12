@@ -1,26 +1,29 @@
-// Define controller functions
+const {StatusCodes} = require('http-status-codes')
+
+
 function ping(req, res) {
     return res.json({ message: "Problem Controller is working" });
 }
 
 function addProblem(req, res) {
-    // Implementation for adding a problem
+    return res.status(StatusCodes.NOT_IMPLEMENTED).json({message: "Method not Implemented"});
+
 }
 
 function getProblem(req, res) {
-    // Implementation for getting a single problem
+    return res.status(StatusCodes.NOT_IMPLEMENTED).json({message: "Method not Implemented"});
 }
 
 function getProblems(req, res) {
-    // Implementation for getting all problems
+    return res.status(StatusCodes.NOT_IMPLEMENTED).json({message: "Method not Implemented"});
 }
 
 function deleteProblem(req, res) {
-    // Implementation for deleting a problem
+    return res.status(StatusCodes.NOT_IMPLEMENTED).json({message: "Method not Implemented"});
 }
 
 function updateProblem(req, res) {
-    // Implementation for updating a problem
+    return res.status(StatusCodes.NOT_IMPLEMENTED).json({message: "Method not Implemented"});
 }
 
 module.exports = {
